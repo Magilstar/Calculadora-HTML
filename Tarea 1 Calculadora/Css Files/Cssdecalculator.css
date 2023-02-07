@@ -1,0 +1,75 @@
+#calculator{
+    display:grid;
+    grid-template-rows: 30% 80%;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 0;
+}
+.display {
+    display: block;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: right;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.Botones {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-rows: repeat(4, 75px);
+    grid-template-columns: repeat(4, 75px);
+    justify-items: center;
+    margin-top: 50px;
+    margin-right: 400px;
+    font-size: 30px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.Boton{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow:  1px 1px 1px;
+    justify-items:center;
+}
+.Boton.clicked{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow:  3px 3px 3px;
+    justify-items:center;
+}
+
+
+.botonOperador{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px;
+    justify-items:center;
+}
+.botonOperador.clicked{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px;
+    justify-items:center;
+}
